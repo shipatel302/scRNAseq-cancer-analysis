@@ -41,13 +41,6 @@ top_features <- sig_degs %>%
 expr_matrix <- GetAssayData(seurat_obj, slot = "data")[top_features, ]
 expr_df     <- as.data.frame(t(as.matrix(expr_matrix)))
 
-# --- Simulate TMB Scores ---
-# In real analysis: TMB calculated from somatic variant calling (Mutect2/GATK)
-# Values represent mutations per megabase
-set.seed(42)
-expr_df$TMB_score <- rnorm(nrow(expr_df), mean = 8.5, sd = 4.2)
-expr_df$TMB_score <- pmax(expr_df$TMB_score, 0)  # No negative TMB
-
 # --- Define Subtype Labels ---
 # Based on clustering + HPV status: "HPV_High" vs "HPV_Low"
 cluster_ids <- Idents(seurat_obj)
