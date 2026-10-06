@@ -1,5 +1,5 @@
 # scRNAseq-cancer-analysis
-Single-cell RNA-seq pipeline with Random Forest classifier (AUC 0.85) for HPV+ cancer subtype prediction | R · Seurat · DESeq2 · SHAP · AWS
+Single-cell RNA-seq pipeline with Random Forest classifier (AUC 0.85) for HPV+ cancer subtype prediction | R · Seurat · DESeq2 · SHAP 
 
 <div align="center">
 
@@ -17,7 +17,7 @@ Single-cell RNA-seq pipeline with Random Forest classifier (AUC 0.85) for HPV+ c
 
 ## What This Project Does
 
-This repository contains a **complete, reproducible analysis pipeline** for single-cell RNA-seq data from HPV-positive cancer cohorts. Starting from raw count matrices, the pipeline performs quality control, normalization, dimensionality reduction, clustering, differential expression, cell type annotation, and culminates in a **validated Random Forest classifier** that predicts cancer subtypes with **AUC = 0.85**.
+This repository contains a **complete, reproducible analysis pipeline** for single-cell RNA-seq data from HPV-positive cancer cohorts. Starting from raw count matrices, the pipeline performs quality control, normalization, dimensionality reduction, clustering, differential expression, cell type annotation, and culminates in a **validated Random Forest classifier** that predicts cancer subtypes with classifier demo.
 
 Every step is documented, every decision is justified, and every result is reproducible from a single source command.
 
@@ -101,7 +101,7 @@ Every step is documented, every decision is justified, and every result is repro
 │                                                                   │
 │  • Feature Matrix Construction                                    │
 │    - Top 200 significant DEGs (by padj)                         │
-│    - Tumor Mutational Burden (TMB) scores                        │
+│                                                                  │
 │    - Labels: HPV_High vs HPV_Low subtypes                        │
 │                                                                   │
 │  • Model Training                                                 │
@@ -254,8 +254,7 @@ HPV-positive head and neck squamous cell carcinoma (HNSCC) represents a distinct
 
 **Shivani Patel**  
 M.S. Bioinformatics Data Science, University of Delaware (GPA: 3.8)  
-3+ years experience in computational biology, drug discovery, and multi-omics analysis
-
+ 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shivanip99-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/shivanip99)
 [![GitHub](https://img.shields.io/badge/GitHub-shipatel302-181717?style=flat&logo=github)](https://github.com/shipatel302)
 [![Email](https://img.shields.io/badge/Email-shivanip8369@gmail.com-D14836?style=flat&logo=gmail)](mailto:shivanip8369@gmail.com)
