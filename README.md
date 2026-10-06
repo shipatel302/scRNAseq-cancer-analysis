@@ -9,7 +9,7 @@ Single-cell RNA-seq pipeline with Random Forest classifier (AUC 0.85) for HPV+ c
 [![Language](https://img.shields.io/badge/Language-R-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://www.r-project.org/)
 [![Seurat](https://img.shields.io/badge/Seurat-4.3.0-blue?style=for-the-badge)](https://satijalab.org/seurat/)
 [![DESeq2](https://img.shields.io/badge/DESeq2-1.38-green?style=for-the-badge)](https://bioconductor.org/packages/DESeq2/)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+
 
 </div>
 
